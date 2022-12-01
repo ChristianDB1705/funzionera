@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		Prova di verifica
+		</title>
+</head>
+
+<body>
+	<link rel="stylesheet" type="text/css" href="static/css/style.css">
+		<div class="container">
+			<div id="content">
+
+<form>
+	<h1>
+		Color your background!
+							</h1>
+
+<p>
+Click one of the buttons and watch the color change of your background.
+</p>
+
+<input type="button" id="Green" value="Green" onclick="CambiaColoreVerde()">
+	<input type="button" id="Orange"value="Orange"onclick="CambiaColoreOrange()">
+		<input type="button" id="Blue" value="Blue" onclick="CambiaColoreBlu()">
+			<input type="button" id="Red" value="Red" onclick="CambiaColoreRosso()">
+
+<div id="output">	
+	</div>
+		</form>
+
+<script type="text/javascript">
+	function CambiaColoreVerde() {
+	document.getElementById("content").style.backgroundColor = "green";
+	}
+function CambiaColoreOrange() {
+	document.getElementById("content").style.backgroundColor = "orange";
+	}
+function CambiaColoreBlu() {
+	document.getElementById("content").style.backgroundColor = "blue";
+	}
+function CambiaColoreRosso() {
+	document.getElementById("content").style.backgroundColor = "red";
+	}
+</script>
+
